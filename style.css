@@ -1,3 +1,92 @@
 body {
     font-family: Sofia, sans-serif;
+    background-color: #ffe8de;
+}
+h1 {
+    font-family: Arial, sans-serif;
+    color: #f160dc;
+    margin-top: 20px;
+}
+p {
+    color: #b11515;
+    font-size: 18px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffc0ff;
+    padding: 10px;
+}
+
+p.fuente-especial
+{
+    font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  color: rgba(238, 0, 0, 0.282);
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    margin: 10px 0;
+    border: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    padding: 5px;
+    border: none;
+    margin: 5px 0;
+}
+
+label {
+    font-family: "Edu NSW ACT Cursive", cursive;
+}
+
+textarea
+{
+    width: 300px;
+    height: 100px;
+}
+
+footer {
+    background-color: #599751;
+    color: #000000;
+   padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #f160dc;
+    color:aliceblue;
+    padding: 50px;
+    text-align: center;
+}
+
+nav {
+    background-color: #a4bd99;
+    color:coral;
+    padding: 10px;
+}
+li {
+    display: inline-block;
+    padding: 10px;
+    display: none;
+}
+ul {
+    list-style: none;
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: #f57d7d;
+    }
+}
+@media screen and (min-width: 601px) {
+   body {
+        background-color: #7d91f5;
+    }
 }
